@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WebSharper.Google.CodeprettifySample</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Content/WebSharper.Google.CodeprettifySample.css" />
+    <style>
+        /* Don't show the not-yet-loaded templates */
+        [ws-template], [ws-children-template] { display: none; }
+    </style>
+    <script type="text/javascript" src="Content/WebSharper.Google.CodeprettifySample.head.js"></script>
+</head>
+<body>
+    <div id="main">
+        <pre class="prettyprint linenums">int x = 1;
+if(x <= 7){
+    cout << "less than 8" << end;    
+}
+else{
+    cout << "greater than 7" << end;
+}
+        </pre>
+        <pre class="prettyprint">
+let a = 1
+let inc x = x + 1
+let f x y = x*y
+    |> inc
+f 2 a
+        </pre>
+    </div>
+    <script type="text/javascript" src="Content/WebSharper.Google.CodeprettifySample.min.js"></script>
+</body>
+</html>
