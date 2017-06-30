@@ -2,19 +2,19 @@
 open IntelliFactory.Build
 
 let bt =
-    BuildTool().PackageId("WebSharper.Google.Codeprettify")
+    BuildTool().PackageId("WebSharper.Google.CodePrettify")
         .VersionFrom("WebSharper")
         .WithFSharpVersion(FSharpVersion.FSharp30)
         .WithFramework(fun f -> f.Net40)
 
 let main =
-    bt.WebSharper.Extension("WebSharper.Google.Codeprettify")
+    bt.WebSharper.Extension("WebSharper.Google.CodePrettify")
         .SourcesFromProject()
         .Embed([])
         .References(fun r -> [])
 
 let tests =
-    bt.WebSharper.SiteletWebsite("WebSharper.Google.Codeprettify.Tests")
+    bt.WebSharper.SiteletWebsite("WebSharper.Google.CodePrettify.Tests")
         .SourcesFromProject()
         .Embed([])
         .References(fun r ->
@@ -31,10 +31,10 @@ bt.Solution [
     bt.NuGet.CreatePackage()
         .Configure(fun c ->
             { c with
-                Title = Some "WebSharper.Google.Codeprettify"
+                Title = Some "WebSharper.Google.CodePrettify"
                 LicenseUrl = Some "http://websharper.com/licensing"
                 ProjectUrl = Some "https://github.com/intellifactory/websharper.google.codeprettify"
-                Description = "Google's code prettify for WebSharper"
+                Description = "Google's code-prettify for WebSharper"
                 RequiresLicenseAcceptance = true })
         .Add(main)
 ]
