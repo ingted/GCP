@@ -33,7 +33,7 @@ bt.Solution [
             { c with
                 Title = Some "WebSharper.Google.Codeprettify"
                 LicenseUrl = Some "http://websharper.com/licensing"
-                ProjectUrl = Some "https://github.com/intellifactory/[3;2~https://github.com/google/code-prettify"
+                ProjectUrl = Some "https://github.com/intellifactory/websharper.google.codeprettify"
                 Description = "Google's code prettify for WebSharper"
                 RequiresLicenseAcceptance = true })
         .Add(main)
