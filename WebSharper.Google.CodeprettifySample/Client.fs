@@ -7,6 +7,7 @@ open WebSharper.UI.Next
 open WebSharper.UI.Next.Client
 open WebSharper.UI.Next.Html
 open WebSharper.UI.Next.Templating
+open WebSharper.Google.CodePrettify
 
 [<JavaScript>]
 module Client =
@@ -14,7 +15,7 @@ module Client =
     [<SPAEntryPoint>]
     let Main () =
         WebSharper.Google.CodePrettify.PR.PrettyPrint()
-        let t = WebSharper.Google.CodePrettify.PR.PrettyPrintOne("let f x y = x*y |> true |> \"dvcsdv\"") //the background won't change since the containing <pre> tag won't get the "prettyprint" class
+        let t = WebSharper.Google.CodePrettify.PR.PrettyPrintOne("let f x y = x*y |> true |> \"dvcsdv\"", "ml", 5) //the background won't change since the containing <pre> tag won't get the "prettyprint" class
         let res = preAttr [Attr.Class "prettyprint"] []
         let button = 
             Doc.Button "Dynamic highlighting" [] (fun () ->

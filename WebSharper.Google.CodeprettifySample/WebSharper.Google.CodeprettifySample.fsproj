@@ -110,8 +110,8 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebSharper.Google.Codeprettify\WebSharper.Google.Codeprettify.fsproj">
-      <Name>WebSharper.Google.Codeprettify</Name>
+    <ProjectReference Include="..\WebSharper.Google.Codeprettify\WebSharper.Google.CodePrettify.fsproj">
+      <Name>WebSharper.Google.CodePrettify</Name>
       <Project>{93167253-1f52-46b0-911e-3dc03acc1cbf}</Project>
       <Private>True</Private>
     </ProjectReference>
