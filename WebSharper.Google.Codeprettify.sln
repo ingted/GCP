@@ -2,9 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebSharper.Google.Codeprettify", "WebSharper.Google.Codeprettify\WebSharper.Google.Codeprettify.fsproj", "{93167253-1F52-46B0-911E-3DC03ACC1CBF}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebSharper.Google.CodePrettify", "WebSharper.Google.Codeprettify\WebSharper.Google.CodePrettify.fsproj", "{93167253-1F52-46B0-911E-3DC03ACC1CBF}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebSharper.Google.Codeprettify.Tests", "WebSharper.Google.Codeprettify.Tests\WebSharper.Google.Codeprettify.Tests.fsproj", "{756D6B15-82FC-4B69-8721-D5B2170B0465}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebSharper.Google.Codeprettify.Tests", "WebSharper.Google.Codeprettify.Tests\WebSharper.Google.CodePrettify.Tests.fsproj", "{756D6B15-82FC-4B69-8721-D5B2170B0465}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81D4E1D1-E78E-4DCB-9365-9A96241C8E06}"
 	ProjectSection(SolutionItems) = preProject
@@ -20,7 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebSharper.Google.CodeprettifySample", "WebSharper.Google.CodeprettifySample\WebSharper.Google.CodeprettifySample.fsproj", "{90F9E0BA-6FA1-4F37-AD52-654F287F72ED}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebSharper.Google.CodePrettifySample", "WebSharper.Google.CodeprettifySample\WebSharper.Google.CodePrettifySample.fsproj", "{90F9E0BA-6FA1-4F37-AD52-654F287F72ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

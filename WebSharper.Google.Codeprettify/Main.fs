@@ -1,4 +1,4 @@
-namespace WebSharper.Google.Codeprettify.Extension
+namespace WebSharper.Google.CodePrettify.Extension
 
 open WebSharper
 open WebSharper.InterfaceGenerator
@@ -16,7 +16,7 @@ module Definition =
 
     let Assembly =
         Assembly [
-            Namespace "WebSharper.Google.Codeprettify.Resources" [
+            Namespace "WebSharper.Google.CodePrettify.Resources" [
                 Resource "Apollo" "https://cdn.rawgit.com/google/code-prettify/master/src/lang-apollo.js"
                 Resource "Basic" "https://cdn.rawgit.com/google/code-prettify/master/src/lang-basic.js"
                 Resource "Clj" "https://cdn.rawgit.com/google/code-prettify/master/src/lang-clj.js"
@@ -59,7 +59,7 @@ module Definition =
                 Resource "ObsidianCss" "https://cdn.rawgit.com/google/code-prettify/master/styles/sons-of-obsidian.css"
                 Resource "SunburstCss" "https://cdn.rawgit.com/google/code-prettify/master/styles/sunburst.css"
             ]
-            Namespace "WebSharper.Google.Codeprettify" [
+            Namespace "WebSharper.Google.CodePrettify" [
                 PR
             ]
         ]
