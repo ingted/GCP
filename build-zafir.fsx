@@ -31,7 +31,7 @@ bt.Solution [
     bt.NuGet.CreatePackage()
         .Configure(fun c ->
             { c with
-                Title = Some "WebSharper.Google.CodePrettify"
+                Title = Some "WebSharper bindings for Google.CodePrettify"
                 LicenseUrl = Some "http://websharper.com/licensing"
                 ProjectUrl = Some "https://github.com/intellifactory/websharper.google.codeprettify"
                 Description = "Google's code-prettify for WebSharper"
