@@ -1,0 +1,19 @@
+type file
+id WebSharper.Google.CodePrettify
+authors
+    IntelliFactory
+owners
+    IntelliFactory
+licenseUrl http://websharper.com/licensing
+projectUrl https://github.com/intellifactory/websharper.google.codeprettify
+description
+    Google's code-prettify for WebSharper
+tags
+    Web JavaScript F# C#
+files
+    ../WebSharper.Google.CodePrettify/bin/Release/netstandard2.0/WebSharper.Google.CodePrettify.dll ==> lib/net461
+    ../WebSharper.Google.CodePrettify/bin/Release/netstandard2.0/WebSharper.Google.CodePrettify.xml ==> lib/net461
+    ../WebSharper.Google.CodePrettify/bin/Release/netstandard2.0/WebSharper.Google.CodePrettify.dll ==> lib/netstandard2.0
+    ../WebSharper.Google.CodePrettify/bin/Release/netstandard2.0/WebSharper.Google.CodePrettify.xml ==> lib/netstandard2.0
+dependencies
+        WebSharper ~> LOCKEDVERSION/3
