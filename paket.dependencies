@@ -18,11 +18,3 @@ group build
     github intellifactory/websharper tools/WebSharper.Fake.fsx
     github intellifactory/websharper tools/WebSharper.Fake.cmd
     github intellifactory/websharper tools/WebSharper.Fake.sh
-    github intellifactory/websharper tools/WebSharper.Fake.cmd
-    github intellifactory/websharper tools/WebSharper.Fake.sh
-    github intellifactory/websharper tools/WebSharper.Fake.cmd
-    github intellifactory/websharper tools/WebSharper.Fake.sh
-    github intellifactory/websharper tools/WebSharper.Fake.cmd
-    github intellifactory/websharper tools/WebSharper.Fake.sh
-    github intellifactory/websharper tools/WebSharper.Fake.cmd
-    github intellifactory/websharper tools/WebSharper.Fake.sh
