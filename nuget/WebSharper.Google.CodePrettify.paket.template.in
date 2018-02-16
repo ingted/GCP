@@ -11,8 +11,8 @@ description
 tags
     Web JavaScript F# C#
 files
-    ../WebSharper.Google.CodePrettify/bin/Release/netstandard2.0/WebSharper.Google.CodePrettify.dll ==> lib/net461
-    ../WebSharper.Google.CodePrettify/bin/Release/netstandard2.0/WebSharper.Google.CodePrettify.xml ==> lib/net461
+    ../WebSharper.Google.CodePrettify/bin/Release/net461/WebSharper.Google.CodePrettify.dll ==> lib/net461
+    ../WebSharper.Google.CodePrettify/bin/Release/net461/WebSharper.Google.CodePrettify.xml ==> lib/net461
     ../WebSharper.Google.CodePrettify/bin/Release/netstandard2.0/WebSharper.Google.CodePrettify.dll ==> lib/netstandard2.0
     ../WebSharper.Google.CodePrettify/bin/Release/netstandard2.0/WebSharper.Google.CodePrettify.xml ==> lib/netstandard2.0
 dependencies
