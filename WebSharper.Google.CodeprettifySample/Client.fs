@@ -16,7 +16,7 @@ module Client =
     let Main () =
         PR.PrettyPrint()
         let t = PR.PrettyPrintOne("let f x y = x*y |> true |> \"dvcsdv\"", "ml", 5) //the background won't change since the containing <pre> tag won't get the "prettyprint" class
-        let res = pre [Attr.Class "prettyprint"] []
+        let res = Elt.pre [Attr.Class "prettyprint"] []
         let button = 
             Doc.Button "Dynamic highlighting" [] (fun () ->
                 res.Dom.InnerHTML <- "let f x y = x*y |> true |> \"dvcsdv\""
