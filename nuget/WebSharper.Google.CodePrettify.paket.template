@@ -16,4 +16,4 @@ files
     ../WebSharper.Google.CodePrettify/bin/Release/netstandard2.0/WebSharper.Google.CodePrettify.dll ==> lib/netstandard2.0
     ../WebSharper.Google.CodePrettify/bin/Release/netstandard2.0/WebSharper.Google.CodePrettify.xml ==> lib/netstandard2.0
 dependencies
-        WebSharper ~> LOCKEDVERSION/3
+        WebSharper ~> LOCKEDVERSION:[3]
