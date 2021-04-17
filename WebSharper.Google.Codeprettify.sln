@@ -1,8 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebSharper.Google.CodePrettify", "WebSharper.Google.Codeprettify\WebSharper.Google.CodePrettify.fsproj", "{93167253-1F52-46B0-911E-3DC03ACC1CBF}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "WebSharper.Google.CodePrettify", "WebSharper.Google.Codeprettify\WebSharper.Google.CodePrettify.fsproj", "{93167253-1F52-46B0-911E-3DC03ACC1CBF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81D4E1D1-E78E-4DCB-9365-9A96241C8E06}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,8 +18,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebSharper.Google.CodePrettifySample", "WebSharper.Google.CodeprettifySample\WebSharper.Google.CodePrettifySample.fsproj", "{90F9E0BA-6FA1-4F37-AD52-654F287F72ED}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,12 +28,11 @@ Global
 		{93167253-1F52-46B0-911E-3DC03ACC1CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93167253-1F52-46B0-911E-3DC03ACC1CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93167253-1F52-46B0-911E-3DC03ACC1CBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90F9E0BA-6FA1-4F37-AD52-654F287F72ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90F9E0BA-6FA1-4F37-AD52-654F287F72ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90F9E0BA-6FA1-4F37-AD52-654F287F72ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90F9E0BA-6FA1-4F37-AD52-654F287F72ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F734CAE4-9B31-4D76-8782-8EAD5EB8348E}
 	EndGlobalSection
 EndGlobal
